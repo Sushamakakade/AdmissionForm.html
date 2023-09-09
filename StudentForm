@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <fieldset>
+       <legend>Admission Form</legend> 
+       <br>
+       <label for="">Student Name</label>
+       <br>
+       <input type="text">
+       <br>
+       
+       <label for="">student Email</label>
+       <br>
+       <input type="email">
+       <br>
+       <br>
+       <label for="">Student Contact</label>
+       <br>
+       <input type="text">
+       <br>
+      <br>
+      <label for="">Student Gender</label>
+      <br>
+      <input type="radio" name="gen">
+      <label for="">MALE</label>
+      <br>
+      <input type="radio" name="gen">
+      <label for="">FEMALE</label>
+      <br>
+      <input type="radio" name="gen">
+      <label for="">OTHER</label>
+      <br>
+      <input type="checkbox">
+      <label for="">history</label>
+      <input type="checkbox">
+      <label for="">science</label>
+      <input type="checkbox">
+      <label for="">math</label>
+    <br>
+       <input type="submit" value="submit">
+    </fieldset>
+</body>
+</html>
