@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <table border="1PX" cellpadding="10" cellspacing="15">
+    <thead>
+        <tr>
+            <th colspan="3">RESULT</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">UPLOAD YOUR PHOTO</td>
+            <td>OBJECTIVE</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil veritatis rem voluptatem impedit optio earum tempore voluptas tenetur ex soluta?</td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td>SKILLS</td>
+            <td TYPE="disc"><ul><li>SQL</li>
+            <li>CORE JAVA</li>
+            <li>WEBTECH</li></ul></td>
+        </tr>
+        <tr>
+            <td Type="disc" rowspan="2"> <ul><LI>NAME</LI>
+            <LI>DOB</LI>
+            <LI>CONTACT</LI>
+            <LI>EMAIL</LI></ul></td>
+            <td>PROJECT</td>
+            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam quaerat dicta alias odio ea, suscipit, facere illo esse deleniti aut dignissimos ducimus unde optio! Ratione ipsum vero et similique corporis?</td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td>ACADEMIC DETAILS</td>
+            <td>
+                <table border="1px" cellpadding="10" cellspacing="15">
+                    <thead>
+                        <tr>
+                            <th>COURSE</th>
+                            <th>UNIVERSITY</th>
+                            <th>YOP</th>
+                            <th>%</th>
+                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>SSC</td>
+                                <td>MSB</td>
+                                <td>2015</td>
+                                <td>63.80</td>
+                            </tr>
+                            <tr>
+                                <td>DIPLOMA</td>
+                                <td>MSBTE</td>
+                                <td>2018</td>
+                                <td>71.70</td>
+                            </tr>
+                            <tr>
+                                <td>DEGREE(CIVIL)</td>
+                                <td>SPPU</td>
+                                <td>2021</td>
+                                <td>75</td>
+                            </tr>
+                        </tbody>
+                    </thead>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+   </table> 
+</body>
+</html>
