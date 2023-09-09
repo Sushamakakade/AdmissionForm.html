@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        #class{
+            background-color: white;
+            height: 500px;
+            width: 800px;
+            border: 1px solid white;
+            margin: auto;
+        }
+        #class1{
+            background-image: repeating-linear-gradient(to right,rgba(15, 177, 186, 0.704),rgb(156, 11, 156));
+            border: 0.5px solid blueviolet;
+            width: 700px;
+            height: 400px;
+            margin: auto;
+            margin-top: 50px;
+            box-shadow: 1px 3px 40px white;
+        }
+        #class2{
+            width: 650px;
+            height: 300px;
+            background-color: white;
+            margin: auto;
+            margin-top: 50px;
+            box-shadow: 1px 2px 50px gray;
+         }
+         h1{
+           text-align: center;
+           background-image: repeating-linear-gradient(to right,rgba(15, 177, 186, 0.704),rgb(156, 11, 156));
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+         .m1{
+            margin-left: 100px;
+            display: inline-block;
+         }
+         #m2{
+             margin-left: 200px; 
+         }
+         #i1{
+            margin-left: 100px;
+            width: 200px;
+             border: none;
+             border-bottom: 0.5px solid blue;
+             outline: none; 
+             }
+             .i2{
+            margin-left: 100px;
+            margin-top: 5px;
+            width: 200px;
+             border: none;
+             border-bottom: 0.5px solid blue; 
+             outline: none; 
+             }
+             .m2{
+              
+            margin-left: 100px;
+            display: inline-block;
+             }
+             #u1{
+             margin-left: 200px; 
+             }
+             #s1{
+                margin-left: 100px;
+                width: 510px;
+             border: none;
+             border-bottom: 0.5px solid blue; 
+             outline: none; 
+            }
+            #s2{
+                margin-left: 100px;
+            }
+            #f1{
+                margin-left: 100px;
+                margin-top: 20px;
+                width: 150px;
+                height: 40px;
+                background-image: repeating-linear-gradient(to right,rgba(15, 177, 186, 0.704),rgb(156, 11, 156));
+     }
+    </style>
+</head>
+<body>
+   <div id="class">
+    <div id="class1">
+        <div id="class2"><h1>Responsive Contact us Form</h1>
+        <br>
+        <div id="c1">
+        <label for=""class="m1">First Name</label> <label for="" class="m1" id="m2">Last Name</label>
+        <input type="text" id="i1"> <input type="text" name="" id="i1"></div>
+  <br>
+  <div> <label for=""class="m2">Email Address</label> <label for="" class="m2" id="u1">Website Name</label>
+        <input type="email" class="i2"> <input type="url" name="" class="i2">
+        <label for="" id="s2">Write your message</label>
+        <br>
+        <br>
+        <input type="text" id="s1">
+        <br>
+        <input id="f1" type="submit" value="submit">
+    </div>
+    </div>
+    </div>
+    </div>
+    
+</body>
+</html>
